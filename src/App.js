@@ -16,7 +16,7 @@ function App() {
         <Header />
         <main className="container content">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/react-router" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contact />} />
             <Route path="/category/:name" element={<Category />} />
