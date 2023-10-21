@@ -4,7 +4,7 @@ function Header() {
   return (
     <nav className="green darken-2">
       <div className="nav-wrapper">
-        <Link to="/react-router" className="brand-logo">
+        <Link to="/" className="brand-logo">
           React Shop
         </Link>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
