@@ -12,7 +12,7 @@ import { NotFound } from "./pages/NotFound";
 function App() {
   return (
     <>
-      <Router basename="/react-router-project">
+      <Router basename="/react-router">
         <Header />
         <main className="container content">
           <Routes>
